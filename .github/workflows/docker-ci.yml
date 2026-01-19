@@ -20,7 +20,7 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          registry: crpi-u10jeeihsgzurjej-vpc.cn-hangzhou.personal.cr.aliyuncs.com
+          registry: crpi-u10jeeihsgzurjej.cn-hangzhou.personal.cr.aliyuncs.com
           username: ${{ vars.ALIYUN_USERNAME }}
           password: ${{ secrets.ALIYUN_PASSWORD }}  
       - name: Set up Docker Buildx
